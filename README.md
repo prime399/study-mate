@@ -1,8 +1,8 @@
-# StudyMate AI 🎓
+# Primefolio AI 🎓
 
 > Enterprise-grade study management platform powered by Heroku Managed Inference and Model Context Protocol (MCP)
 
-StudyMate AI is a comprehensive learning platform that combines advanced AI capabilities with real-time analytics to help students optimize their study habits. Built on Heroku's Managed Inference infrastructure with MCP tool integration, it features MentorMind - an intelligent AI assistant capable of processing external resources and providing context-aware study guidance.
+Primefolio AI is a comprehensive learning platform that combines advanced AI capabilities with real-time analytics to help students optimize their study habits. Built on Heroku's Managed Inference infrastructure with MCP tool integration, it features MentorMind - an intelligent AI assistant capable of processing external resources and providing context-aware study guidance.
 
 ## ✨ Key Features
 
@@ -121,7 +121,7 @@ Visit [http://localhost:3000](http://localhost:3000) to see your app!
 ## 📁 Project Structure
 
 ```
-StudyMate/
+Primefolio/
 ├── app/                    # Next.js app directory
 │   ├── (protected)/       # Protected routes (dashboard, groups, etc.)
 │   │   └── dashboard/
@@ -345,7 +345,7 @@ git push heroku main
 # 3. Register with Heroku Inference
 # Contact Heroku support to register your MCP server
 
-# 4. Tools will automatically appear in StudyMate
+# 4. Tools will automatically appear in Primefolio
 ```
 
 #### MCP Configuration Verification
@@ -367,7 +367,7 @@ curl -H "Authorization: Bearer YOUR_KEY" \
 1. Navigate to [GitHub Developer Settings](https://github.com/settings/developers)
 2. Click "New OAuth App"
 3. Fill in application details:
-   - **Application name**: StudyMate AI
+   - **Application name**: Primefolio AI
    - **Homepage URL**: `https://your-domain.com`
    - **Authorization callback URL**: `https://your-deployment.convex.site/api/auth/callback/github`
 4. Copy Client ID and Client Secret
@@ -395,7 +395,7 @@ curl -H "Authorization: Bearer YOUR_KEY" \
 
 ### Coin System Configuration
 
-StudyMate uses a coin-based system for AI interactions:
+Primefolio uses a coin-based system for AI interactions:
 
 - **Earn Coins**: 1 coin per second of active study time
 - **Spend Coins**: 5 coins per AI query (configurable)
@@ -650,6 +650,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**StudyMate AI** - Enterprise-grade study management powered by Heroku Managed Inference and Model Context Protocol.
+**Primefolio AI** - Enterprise-grade study management powered by Heroku Managed Inference and Model Context Protocol.
 
 Built for students worldwide. Transform your study habits with intelligent AI assistance. 

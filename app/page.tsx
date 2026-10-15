@@ -85,7 +85,7 @@ const testimonials = [
   {
     name: "Sarah Chen",
     username: "@sarahc_studies",
-    body: "StudyMate helped me improve my GPA from 3.2 to 3.8 in just one semester. The focus timer is a game-changer!",
+    body: "Primefolio helped me improve my GPA from 3.2 to 3.8 in just one semester. The focus timer is a game-changer!",
     img: "https://avatar.vercel.sh/sarah",
   },
   {
@@ -109,7 +109,7 @@ const testimonials = [
   {
     name: "Lisa Thompson",
     username: "@lisa_learns",
-    body: "StudyMate's goal setting feature keeps me accountable. I've been more consistent than ever before.",
+    body: "Primefolio's goal setting feature keeps me accountable. I've been more consistent than ever before.",
     img: "https://avatar.vercel.sh/lisa",
   },
   {
@@ -207,7 +207,7 @@ export default function Home() {
               <div className="relative w-full">
                 <Image
                   src="/main-dashboard.webp"
-                  alt="StudyMate Dashboard Preview"
+                  alt="Primefolio Dashboard Preview"
                   width={1200}
                   height={800}
                   className="w-full h-auto object-contain rounded-[12px]"
@@ -271,7 +271,7 @@ export default function Home() {
                 What Students Are Saying
               </h2>
               <p className="text-base sm:text-lg text-gray-300 leading-relaxed max-w-2xl mx-auto">
-                Join thousands of students who have transformed their study habits with StudyMate
+                Join thousands of students who have transformed their study habits with Primefolio
               </p>
             </div>
             
@@ -352,7 +352,7 @@ export default function Home() {
                 </h2>
                 <p className="mx-auto mt-3 sm:mt-4 max-w-2xl text-sm sm:text-base lg:text-lg text-gray-600 px-4">
                   Join thousands of students who are already improving their
-                  academic performance with StudyMate.
+                  academic performance with Primefolio.
                 </p>
                 <div className="mt-6 sm:mt-8 flex justify-center">
                   <Link href="/dashboard">
@@ -371,7 +371,7 @@ export default function Home() {
           <div className="w-full px-4 sm:px-6 lg:px-8 py-4">
             <div className="flex flex-col sm:flex-row items-center justify-between gap-4 w-full">
               <p className="text-sm text-gray-400">
-                © 2024 StudyMate. All rights reserved.
+                © 2024 Primefolio. All rights reserved.
               </p>
               <Link
                 href={"https://www.study-mate.tech/#"}
